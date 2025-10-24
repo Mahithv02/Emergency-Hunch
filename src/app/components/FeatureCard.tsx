@@ -1,13 +1,8 @@
 "use client";
 
 import React from "react";
-
-interface FeatureCardProps {
-  icon: React.ReactNode | string;
-  delay?: number;
-  title: string;
-}
-
+import { FeatureCardProps } from "../types";
+  
 const FeatureCard: React.FC<FeatureCardProps> = ({
   icon,
   delay = 0,
